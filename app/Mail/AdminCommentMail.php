@@ -30,7 +30,7 @@ class AdminCommentMail extends Mailable
     {
 
         return new Envelope(
-            from: new Address('akopyan.felix02@mail.ru'),
+            from: new Address('nikita_andreev20@mail.ru'),
             subject: 'Admin Comment Mail',
         );
     }

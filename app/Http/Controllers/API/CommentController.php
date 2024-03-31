@@ -46,7 +46,7 @@ class CommentController extends Controller
 
         if ($res) {
             $this->clearCacheForComments();
-            Mail::to('akopyan.felix02@mail.ru')->send(new AdminCommentMail($comment));
+            Mail::to('nikita_andreev20@mail.ru')->send(new AdminCommentMail($comment));
             
             return response()->json([
                 'result' => $res,
